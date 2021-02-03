@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url(../imagenes/background.jpg);
+    background-size: cover;
+}
+
+#titulo {
+    font-family: 'Lobster-Regular';
+    font-size: 5em;
+    color: white;
+}
+
+#logo {
+    margin-top: -15%;
+}
+
+#instrumentos img {
+    border: solid white 1px;
+    width: 55%;
+    margin-top: -20%;
+    margin-left: 20%;
+}
