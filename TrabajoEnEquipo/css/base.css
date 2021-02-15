@@ -4,8 +4,14 @@
 }
 
 body {
-    background-image: url(../imagenes/background.jpg);
+    /* background-image: url(../imagenes/background.jpg); */
+    background-color: rgb(182, 182, 182);
     background-size: cover;
+}
+
+header {
+    background-color:#322411;
+    height: 150px;
 }
 
 #titulo {
@@ -15,12 +21,11 @@ body {
 }
 
 #logo {
-    margin-top: -15%;
+    margin-top: -7.2%;
 }
 
 #instrumentos img {
-    border: solid white 1px;
-    width: 55%;
-    margin-top: -20%;
+    width: 50%;
+    margin-top: 20%;
     margin-left: 20%;
 }
