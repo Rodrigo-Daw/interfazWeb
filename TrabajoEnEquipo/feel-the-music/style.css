@@ -64,7 +64,7 @@ h3 {font-size:25px}
     height: 200px;    
 }*/
 /*content*/
-#content {background:url(images/cont-bg.jpg) no-repeat left top;min-height:561px;height:auto!important;height:561px}
+#content {/*background:url(images/cont-bg.jpg) no-repeat left top;*/min-height:561px;height:auto!important;height:561px}
 #content .indent {padding:50px 50px 50px 329px}
 #content .inner_copy {border:0;color:#fff;float:right;width:0.09%!important;margin:-100px;overflow:hidden;line-height:0px;padding:0px;font-size:11px}
 #content .indent1 {padding-bottom:37px}
