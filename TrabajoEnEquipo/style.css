@@ -50,7 +50,7 @@ ul {list-style:none}
 .img-box1 img {float:left;margin:0 20px 0 0}
 .p1 {margin-bottom:20px}
 /* txt, links, lines, titles */
-a {color:#c9710c;outline:none}
+a {color:#a24f00;outline:none}
 a:hover{text-decoration:none}
 h2, h3, h4 {color:#515151;line-height:1.2em;margin-bottom:20px; margin-top:20px;}
 h2 {font-size:36px}
@@ -75,5 +75,5 @@ h3 {font-size:25px}
 /*footer*/
 #footer {height:79px}
 #footer .indent {padding:32px 50px 20px 50px}
-#footer a {color:#de7715}
+#footer a {color:#a24f00}
 #footer img {position:relative;top:-4px}
