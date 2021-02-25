@@ -118,7 +118,7 @@ h3 {font-size:25px}
         
     }
     #content {display: block; margin-left: 5%; width: 100%}
-    
+    #content {padding: 50px}
     #content .indent {padding:0%; padding-top: 10%; padding-left: 0%; width: 100%}
     .menu_bar{
         display: block;
