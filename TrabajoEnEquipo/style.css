@@ -320,10 +320,14 @@ h3 {
 /*content*/
 
 #obra1 img, #obra2 img {
-    width: 100%;
+    /*width: 100%;
     margin-top: 20%;
     display: block;
-    background-color: rgba(255, 242, 209, 0.315);
+    background-color: rgba(255, 242, 209, 0.315);*/
+    display:flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-top:20px;
 }
 
 #content {
@@ -460,3 +464,4 @@ h3 {
             padding-left: 5%
         }
     }
+}
