@@ -43,6 +43,10 @@ object {
     font-size: 0.75em
 }
 
+#logo_mini{
+    display: none;
+}
+
 .wrapper {
     width: 100%;
     overflow: hidden
@@ -51,7 +55,12 @@ object {
 .container {
     width: 100%;
     margin: 0 auto;
-    position: relative
+    position: relative;
+}
+#container{
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
 }
 
 .col-1, .col-2, .col-3 {
@@ -393,8 +402,10 @@ h3 {
     .container {
         width: 100%;
         margin: 0;
-        float: left
+        float: left;
+        display:block;
     }
+   
     #header nav {
         background: #FFEFD1;
         width: 85%;
@@ -422,6 +433,11 @@ h3 {
     }
     #content {
         padding: 50px
+    }
+    
+    .contenedor_audios{
+        padding-top: 50px;
+        
     }
     #content .indent {
         padding: 0%;
@@ -451,7 +467,34 @@ h3 {
     .menu_bar span {
         float: right;
         font-size: 40px;
+        
     }
+    
+    .row{
+        padding: 50px;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        
+    }
+    #obra1, #obra2{
+        
+        display: block;
+        width: 555px;
+        min-width: 555px;
+        
+        
+    }
+    #logo_mini{
+        display: block;
+        
+    }
+    
+    .logo{
+        display: none;
+    }
+    
+   
     @media screen and (max-width:1090px) {
         .tail-top {
             width: 100%;
